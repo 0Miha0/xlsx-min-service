@@ -1,0 +1,18 @@
+spring:
+  mvc:
+    servlet:
+      path: /api/v1
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: debug
